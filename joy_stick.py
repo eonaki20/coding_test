@@ -4,7 +4,7 @@ def solution(name):
     alhpa_list = list(ascii_uppercase)  # 알파벳 대문자 리스트
 
     up_or_down_count = 0  # 커서 위,아래 조작횟수
-    right_or_left_count = 0  # 커서 위,아래 조작횟수
+    right_or_left_count = 0  # 커서 오른쪽, 조작횟수
 
     up_or_down = {}  # 알파벳(key)과 각 알파벳의 커서 조작횟수(value)
     for i in range(len(alhpa_list) // 2 + 1):
